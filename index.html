@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Trevor</title>
+</head>
+<body>
+    <div id="main-page">
+        <div class="toggle-button">
+            &#128400
+        </div>
+        <div class="navbar-container">
+            <div class="nav-items-container">
+                <li class="nav-item"><a href="#main-page">Home</a></li>
+                <li class="nav-item"><a href="#about-container">About</a></li>
+                <li class="nav-item"><a href="#projects-container">Projects</a></li>
+                <li class="nav-item"><a href="#contacts-container">Contacts</a></li>
+            </div>
+        </div>
+        <article class="home-container">
+            <div class="welcome-text">Hello</div>
+            <a href="#about-container" class="to-about-button"
+            onmouseover="this.innerHTML='&#8595;';"
+            onmouseout="this.innerHTML='About';">
+            About
+            </a>
+        </article>
+    </div>
+    <div id="about-container">
+        <p class="title-text">About Me</p>
+        <div class="text-image-container">
+            <div class="about-text">
+                <p>Hello!</p><br>
+                <p>My name is Trevor McLaurine. I am a student at Bellevue University pursuing a Computer Science degree and an inspiring Web Developer</p><br>
+                <p>I've a long way to go, but enjoying every step of the way!</p>
+                <div class="tech-container">
+
+                </div>
+            <div class="image-backdrop"></div>
+        </div>
+        <img class="profile-img" src="me.JPG" height="50%" width="20%" alt="Me!">
+        </div>
+        <a href="#projects-container" class="to-projects-button"
+        onmouseover="this.innerHTML='&#8595;';"
+        onmouseout="this.innerHTML='Projects';">
+        Projects
+        </a>
+    </div>
+    <div id="projects-container">
+        <p class="title-text">Projects</p>
+        *Coming Soon!*
+        <a href="#contacts-container" class="to-contacts-button"
+        onmouseover="this.innerHTML='Ready?';"
+        onmouseout="this.innerHTML='Contact';">
+        Contact
+        </a>
+    </div>
+    <div id="contacts-container">
+        <p class="contact-text">Let's make something together</p>
+        <div class="form-container">
+            <form action="mailto:tmclaurine@outlook.com" method="post" enctype="text/plain">
+                <p class="input-text">Name:</p>
+                <input type="text" name="name" size="40" style="height: 1.5em; padding: 5px;"><br>
+                <p class="input-text">Email:</p>
+                <input type="text" name="mail" size="40" style="height: 1.5em; padding: 5px;"><br>
+                <p class="input-text">Comment:</p>
+                <textarea name="comment" rows="10" cols="60" style="resize: none; padding: 5px; "></textarea><br><br>
+                <input class="form-buttons" type="submit" value="Send">
+                <input class="form-buttons" type="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+    <a class="to-top-button" href="#main-page">Up!</a>
+</body>
+</html>

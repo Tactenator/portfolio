@@ -6,23 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <title>Trevor</title>
+    <title>Trevor McLaurine</title>
 </head>
 <body>
     <div id="main-page">
-        <div class="toggle-button">
-            &#128400
-        </div>
         <div class="navbar-container">
             <div class="nav-items-container">
-                <li class="nav-item"><a href="#main-page">Home</a></li>
-                <li class="nav-item"><a href="#about-container">About</a></li>
-                <li class="nav-item"><a href="#projects-container">Projects</a></li>
-                <li class="nav-item"><a href="#contacts-container">Contacts</a></li>
+                <a class="nav-item" href="#main-page">Home</a>
+                <a class="nav-item" href="#about-container">About</a>
+                <a class="nav-item" href="#projects-container">Projects</a>
+                <a class="nav-item" href="#contacts-container">Contacts</a>
             </div>
         </div>
         <article class="home-container">
             <div class="welcome-text">Hello</div>
+            <div class="welcome-text">Welcome to my portfolio</div>
             <a href="#about-container" class="to-about-button"
             onmouseover="this.innerHTML='&#8595;';"
             onmouseout="this.innerHTML='About';">
@@ -31,28 +29,135 @@
         </article>
     </div>
     <div id="about-container">
-        <p class="title-text">About Me</p>
         <div class="text-image-container">
             <div class="about-text">
                 <p>Hello!</p><br>
                 <p>My name is Trevor McLaurine. I am a student at Bellevue University pursuing a Computer Science degree and an inspiring Web Developer</p><br>
-                <p>I've a long way to go, but enjoying every step of the way!</p>
-                <div class="tech-container">
-
-                </div>
-            <div class="image-backdrop"></div>
+                <p>I am originally from Washington state and moved to Nebraska in 2013 to be closer to family. I love coding, cooking, video games, art, hanging out with family, 
+                    languages, and biking. 
+                </p><br>
+                <p>I hope that after, or during, school that I can develop a freelance business making web pages for small businesses or 
+                    find the right company where I can learn as well as develop software. 
+                </p>
+            </div>
+            <img class="profile-img" src="me.JPG" height="50%" width="20%" alt="Me!">
         </div>
-        <img class="profile-img" src="me.JPG" height="50%" width="20%" alt="Me!">
-        </div>
-        <a href="#projects-container" class="to-projects-button"
+        <a href="#resume-container" class="to-projects-button"
         onmouseover="this.innerHTML='&#8595;';"
-        onmouseout="this.innerHTML='Projects';">
-        Projects
+        onmouseout="this.innerHTML='Resume';">
+        Resume
         </a>
     </div>
+    <div id="resume-container">
+        <div class="resume-header">
+            <h1>Trevor McLaurine</h1>
+            <h2>Junior Front End Developer</h2>
+            <h4>New Front End Developer looking to learn and looking for work. </h4>
+        </div>
+        <div class="contacts-bar">
+            <div class="email">trevor.mclaurine@gmail.com</div>
+            <div class="phone">999-999-9999</div>
+            <div class="location">Omaha, NE</div>
+            <div class="website">www.trevormcl.com</div>
+            <a href="./Trevor's Resume.pdf" download>Download Copy</a>
+        </div>
+        <div class="resume-info-container">
+            <div class="resume-info">
+                <div class="info-container">
+                    <h1>Education</h1>
+                    <h2>Software Development</h2>
+                    <h3>Metropolitan Community College</h3>
+                    <div class="education-info">
+                        <span>11/20 - 08/2022</span>
+                        <span>Omaha, NE - GPA 4.0</span>
+                    </div>
+                </div>
+                <div class="info-container">
+                    <h2>Software Development</h2>
+                    <h3>Bellevue University</h3>
+                    <div class="info-span">
+                        <span>10/22 - Present</span>
+                        <span>Bellevue, NE - GPA 4.0</span>
+                    </div>
+                </div>
+                <div class="info-container">
+                    <h1>Work Experience</h1>
+                    <h2>Customer Service Assistant</h2>
+                    <h3>Valvoline</h3>
+                    <div class="info-span">
+                        <span>09/22 - Present</span>
+                        <span>Omaha, NE</span>
+                    </div>
+                    <p>Fast Oil Change service center</p>
+                    <span>Tasks</span>
+                    <ul>
+                        <li>Provide customer service for customers in the form of
+                            greeting, handling customer requests, sales and cashing out
+                        </li>
+                        <li>Help technicians as required with service on the car.</li>
+                    </ul>   
+                </div>
+                <div class="info-container">
+                    <h2>Work Study Associate</h2>
+                    <h3>Metropolitan Community College</h3>
+                    <div class="info-span">
+                        <span>03/21 - 07/21</span>
+                        <span>Omaha, NE</span>
+                    </div>
+                    <p>Re-entry Program</p>
+                    <span>Tasks</span>
+                    <ul>
+                        <li>
+                            Assisted in daily tasks as needed.
+                        </li>
+                        <li>Data entry.</li>
+                        <li>Provided students with resources, such as food and clothes.</li>
+                    </ul>   
+                </div>
+            </div>
+            <div class="resume-info">
+                <div class="info-container">
+                    <h1>Personal Projects</h1>
+                    <div class="project-info">
+                        <h2>Personal Portfolio</h2>
+                        <p>Creation of website for showcasing web development skills. </p>
+                    </div>
+                    <div class="project-info">
+                        <h2>Rock, Paper, Scissors, Lizard, Spock</h2>
+                        <p>Practice Front End Mentor project on a variation of Rock,Paper, Scissors. </p>
+                    </div>
+                    <div class="project-info">
+                        <h2>Chillona</h2>
+                        <p>First MERN stack website. Developed a web application for learning English. </p>
+                    </div>
+                </div>
+                <div class="info-container">
+                    <h1>Organizations</h1>
+                    <h2>Phi Theta Kappa (03/2022 - Present)</h2>
+                    <h3>Member of Honors Society</h3>
+                </div>
+                <div class="info-container">
+                    <h1>Volunteer Experience</h1>
+                    <h2>Omaha Food Bank (02/2022 - 05/2020)</h2>
+                    <p>Provided assistance in preparing and sorting food to be sent to families in
+                        need. I was forced to stop once the pandemic hit.</p>
+                </div>
+                <div class="info-container">
+                    <div class="languages">
+                        <div class="language">
+                            <h2>English</h2>
+                            <span>Native Speaker</span>
+                        </div>
+                        <div class="language">
+                            <h2>Spanish</h2>
+                            <span>Full Professional Proficiency</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div id="projects-container">
-        <p class="title-text">Projects</p>
-        *Coming Soon!*
         <a href="#contacts-container" class="to-contacts-button"
         onmouseover="this.innerHTML='Ready?';"
         onmouseout="this.innerHTML='Contact';">
@@ -74,6 +179,5 @@
             </form>
         </div>
     </div>
-    <a class="to-top-button" href="#main-page">Up!</a>
 </body>
 </html>

@@ -280,49 +280,27 @@ body{
     bottom: 5%; 
     transition: 0.7s;
   }
-
-  #contacts-container
-  {
-    background-color: #eeeeee; 
-    height: 100vh; 
-    position: relative; 
-  }
-
-  .contact-text
-  {
-    text-align: center; 
-    font-size: 22px; 
-    position: absolute; 
-    top: 15%;
-    left: 38%; 
-  }
-
-  .form-container
-  {
+  
+  footer {
+    background: #313c4e;
+    height: 30vh; 
     display: flex; 
     justify-content: center;
-    align-items: center;
-    position: absolute; 
-    left: 38%; 
-    top: 30%;  
+    gap: 10vw;
+    color: #fff; 
   }
 
-  .form-buttons
-{
-    padding: 12px; 
-    width: 10rem; 
-    border-radius: 5px; 
-    border: none; 
-    cursor: pointer; 
-    background-color: #0b0c10;
-    color:#dcd8d7;
-    transition: 0.2s;
-    font-family: 'Coming Soon', cursive; 
-}
+  .footer-container {
+    margin-top: 10vh; 
+  }
 
-  .form-buttons:hover
-  {
-      background-color: #FFB2B2;
-      color:#EEEEEE;
+  
+  
+  .footer-container a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-container a:visited {
+    color: #fff; 
   }
  

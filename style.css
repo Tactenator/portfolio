@@ -12,7 +12,7 @@ html{
 }
 
 body{
-    background-color: #0b0c10; 
+    background: #313c4e;
     font-family: 'Hind', sans-serif;
     
     position: relative;
@@ -26,7 +26,7 @@ body{
 }
 
 .navbar-container{
-    background-color: #0b0c10;
+    background: #313c4e;
     color: white; 
     list-style: none;
     display: block; 
@@ -46,9 +46,13 @@ body{
      
 }
 
+.nav-items {
+  color: #4D89EA;
+}
+
 .nav-item:hover{
     cursor: pointer; 
-    color: #66fcf1; 
+    color:#4D89EA; 
     transition: 0.4s; 
 }
 
@@ -58,7 +62,7 @@ body{
 
 .nav-item:visited:hover {
   cursor: pointer; 
-    color: #66fcf1; 
+    color: #4D89EA; 
 }
 
 .toggle-button {
@@ -72,7 +76,7 @@ body{
 
   .home-container
   {
-    color: #66fcf1;
+    color: #4D89EA;
     font-size: 3rem; 
     text-align: center; 
     display: flex; 
@@ -80,7 +84,7 @@ body{
     align-items: center;
     flex-direction: column;
     height: 80vh; 
-    
+    background: #313c4e;
   }
 
   .welcome-text
@@ -93,7 +97,7 @@ body{
     font-size: 22px; 
     background: none; 
     color: #fff; 
-    border: 2px solid #66fcf1;
+    border: 2px solid #4D89EA;
     width: 40vh; 
     height: 10vh; 
     display: flex; 
@@ -106,7 +110,7 @@ body{
   }
 
   .to-about-button:hover{
-    color: #66fcf1;
+    color: #4D89EA;
     border: 2px solid white;
     font-size: 30px;  
     width: 12vh; 
@@ -166,7 +170,7 @@ body{
     background: #222a33;
     display: flex; 
     justify-content: space-evenly;
-    color: #66fcf1;
+    color: #4D89EA;
   }
 
   .contacts-bar a {
@@ -174,7 +178,7 @@ body{
   }
 
   .contacts-bar a:visited {
-    color: #66fcf1;
+    color: #4D89EA;
   }
 
   .resume-info-container {
@@ -199,7 +203,7 @@ body{
 
   #projects-container
   {
-    background-color: #0b0c10; 
+    background-color: #313c4e; 
     height: 100vh; 
     color: #fff;
     padding: 2vh 2vw;
@@ -256,7 +260,7 @@ body{
 
   .to-contacts-button:hover{
     position: absolute; 
-    color: #66fcf1;
+    color: #4D89EA;
     border: 2px solid white; 
     font-size: 22px; 
     width: 12vh; 
@@ -273,7 +277,7 @@ body{
     font-size: 22px; 
     background: none; 
     color: #fff; 
-    border: 2px solid #66fcf1;
+    border: 2px solid #4D89EA;
     width: 40vh; 
     height: 10vh;
     left: 38%;
@@ -282,18 +286,21 @@ body{
   }
   
   footer {
-    background: #313c4e;
+    background: #fff;
     height: 30vh; 
     display: flex; 
     justify-content: center;
     gap: 10vw;
-    color: #fff; 
+    color: #4D89EA; 
   }
 
   .footer-container {
     margin-top: 10vh; 
   }
 
+  .footer-container a {
+    color:#4D89EA;
+  }
   
   
   .footer-container a:hover {
@@ -301,6 +308,6 @@ body{
   }
 
   .footer-container a:visited {
-    color: #fff; 
+    color: #4D89EA; 
   }
  

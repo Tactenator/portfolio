@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
+    <script src="../script.js"></script>
     <title>Trevor McLaurine - Projects</title>
 </head>
 <body>
@@ -13,11 +14,16 @@
             <a class="nav-item" href="../index.html">Home</a>
             <a class="nav-item" href="./about.html">About</a>
             <a class="nav-item" href="./projects.html">Projects</a>
-            <a class="nav-item" href="./resume.html">Contacts</a>
+            <a class="nav-item" href="./resume.html">Resume</a>
         </div>
     </div>
-    <div id="projects-container">
-        <h1>Projects</h1>
+    <div id="projects-buttons-container">
+        <button id="projects-button" class="selected">Projects</button>
+        <button id="database-button">Diagrams</button>
+        <button id="unit-button">Tests</button>
+    </div>
+    <div id="projects-container project0" class="Projects show">
+        <h1 class="projects-header">Projects</h1>
         <div class="card-container">
             <div class="project-card card">
                 <a href="https://tactenator.github.io/web-231/" class="card-title">WEB231 Landing Page</a>
@@ -53,8 +59,8 @@
             </div>
         </div>
     </div>
-    <div id="projects-container" style="background: #fff; color: #4D89EA">
-        <h1>Database Diagrams</h1>
+    <div id="projects-container project1" class="Diagrams hide">
+        <h1 class="projects-header">Database Diagrams</h1>
         <div class="card-container">
             <div class="project-card card">
                 <a href="https://tactenator.github.io/web-231/" class="card-title">lorem ipsum</a>
@@ -90,8 +96,8 @@
             </div>
         </div>
     </div>
-    <div id="projects-container">
-        <h1>API Unit Tests</h1>
+    <div id="projects-container project2" class="Tests hide">
+        <h1 class="projects-header">Tests</h1>
         <div class="card-container">
             <div class="project-card card">
                 <a href="https://tactenator.github.io/web-231/" class="card-title">lorem ipsum</a>

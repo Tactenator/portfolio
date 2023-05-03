@@ -50,6 +50,10 @@ body{
   color: white;
 }
 
+.nav-item:link {
+  color: white; 
+}
+
 .nav-item:hover{
     cursor: pointer; 
     color:#4D89EA; 

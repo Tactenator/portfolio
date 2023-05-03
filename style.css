@@ -26,24 +26,23 @@ body{
 }
 
 .navbar-container{
-    background: #4ABDF7;
+    background: #004E75;
     color: white; 
     list-style: none;
     display: block; 
     position: relative;  
-    border-radius: 15px; 
+     
 }
 
 .nav-items-container
 {
-    margin-top: 2vh;
     margin-right: 2vw;   
     display: flex;
     justify-content: flex-end;
     gap: 5rem;   
     font-weight: bold; 
     font-size: 25px; 
-     
+    padding: 1rem; 
 }
 
 .nav-items {
@@ -52,7 +51,7 @@ body{
 
 .nav-item:hover{
     cursor: pointer; 
-    color:#004E75; 
+    color:#4D89EA; 
     transition: 0.4s; 
 }
 
@@ -62,7 +61,7 @@ body{
 
 .nav-item:visited:hover {
   cursor: pointer; 
-  color: #004E75; 
+  color:#4D89EA;
 }
 
 .toggle-button {
@@ -77,19 +76,37 @@ body{
   .home-container
   {
     color: #4D89EA;
-    font-size: 3rem; 
     text-align: center; 
     display: flex; 
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 80vh; 
     background: #4ABDF7;
+    padding: 5vh 5vw; 
+    gap: 5rem; 
   }
 
-  .welcome-text
+  .home-image img {
+    width: 80%; 
+    height: auto; 
+  }
+
+  .welcome-text-container
   {
     text-align: center; 
+    color: white; 
+    font-size: 2rem; 
+    margin-top: 10vh; 
+  }
+
+  .welcome-text-container a {
+    background: white; 
+    padding: 2vh 2vw; 
+    border-radius: 15px; 
+    color: #4D89EA; 
+    transition: 0.3s;
+  }
+
+  .welcome-text-container a:hover {
+    background: #004E75; 
     color: white; 
   }
 
@@ -121,6 +138,11 @@ body{
     cursor: pointer; 
   }
 
+  .about-image-container {
+    display: flex; 
+    flex-direction: column;
+  }
+
 
   .title-text
   {
@@ -143,8 +165,6 @@ body{
     width: 25%;
     margin-left: 15%; 
   }
-
-
 
   .text-image-container
   {
@@ -214,6 +234,9 @@ body{
     padding: 3vh 5vw; 
     margin: 5vh 0; 
     font-size: 1.5rem; 
+    
+    border: none; 
+    border-radius: 15px; 
   }
 
   #projects-buttons-container button:hover {
@@ -340,6 +363,11 @@ body{
 
   .show {
     display: block; 
+  }
+
+  .selected {
+    background-color: #004E75; 
+    color: white; 
   }
 
   

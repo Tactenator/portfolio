@@ -12,7 +12,7 @@ html{
 }
 
 body{
-    background: #313c4e;
+    background: #4ABDF7;
     font-family: 'Hind', sans-serif;
     
     position: relative;
@@ -26,7 +26,7 @@ body{
 }
 
 .navbar-container{
-    background: #313c4e;
+    background: #4ABDF7;
     color: white; 
     list-style: none;
     display: block; 
@@ -47,12 +47,12 @@ body{
 }
 
 .nav-items {
-  color: #4D89EA;
+  color: white;
 }
 
 .nav-item:hover{
     cursor: pointer; 
-    color:#4D89EA; 
+    color:#004E75; 
     transition: 0.4s; 
 }
 
@@ -62,7 +62,7 @@ body{
 
 .nav-item:visited:hover {
   cursor: pointer; 
-    color: #4D89EA; 
+  color: #004E75; 
 }
 
 .toggle-button {
@@ -84,12 +84,13 @@ body{
     align-items: center;
     flex-direction: column;
     height: 80vh; 
-    background: #313c4e;
+    background: #4ABDF7;
   }
 
   .welcome-text
   {
-    text-align: center
+    text-align: center; 
+    color: white; 
   }
 
   .to-about-button
@@ -160,16 +161,18 @@ body{
   }
 
   .resume-header {
-    background: #313c4e;
+    background: #4ABDF7;
     color: white;
-    padding: 0 5vw;  
+    padding: 2vh 5vw;  
   }
 
   .contacts-bar {
-    background: #222a33;
+    background: #004E75;
     display: flex; 
     justify-content: space-evenly;
-    color: #4D89EA;
+    padding: 0.3rem; 
+    font-size: 1.4rem; 
+    color: white;
   }
 
   .contacts-bar a {
@@ -219,7 +222,7 @@ body{
 
   #projects-container
   {
-    background-color: #313c4e; 
+    background-color: #4ABDF7; 
     height: 100vh; 
     color: #fff;
     padding: 2vh 2vw;
@@ -241,7 +244,7 @@ body{
   }
 
   .card {
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
     transition: 0.3s;
     width: 300px; 
     margin: 3% auto 0; 

@@ -279,7 +279,8 @@ body{
     background: #fff;
     text-align: center;
     padding: 1rem; 
-}
+    word-wrap:break-word;
+ }
 
 .card:hover {
   transform: translateY(-10px);

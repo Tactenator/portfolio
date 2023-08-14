@@ -336,6 +336,20 @@ body{
     bottom: 5%; 
     transition: 0.7s;
   }
+
+  .presentation-container {
+    height: inherit; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+    align-items: start;
+    margin-top: 10vh;  
+  }
+
+  video {
+    background: #000; 
+    padding: 1rem; 
+  }
   
   footer {
     background: #fff;

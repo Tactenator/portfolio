@@ -69,6 +69,27 @@ body{
   color:#4D89EA;
 }
 
+.dropdown {
+  cursor: pointer; 
+}
+
+.dropdown-menu {
+  display: none; 
+  position: absolute; 
+  background: #fff; 
+  padding: 1rem 1rem; 
+  cursor: pointer; 
+}
+
+.dropdown-menu a {
+  color: #000; 
+}
+
+.dropdown:hover .dropdown-menu {
+  display: flex; 
+  flex-direction: column;
+}
+
 .toggle-button {
     position: absolute; 
     left: 3%;
@@ -160,7 +181,6 @@ body{
   {
     background-color: rgb(238, 238, 238); 
     height: 100vh; 
-    position: relative; 
     letter-spacing: 0;
 
   }
